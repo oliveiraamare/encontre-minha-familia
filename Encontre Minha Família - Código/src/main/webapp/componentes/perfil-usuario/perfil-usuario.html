@@ -1,0 +1,63 @@
+<div id="divModalMensagem" class="modal fade modal-main-message" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+       <div class="modal-content">
+          <div class="modal-header"></div>
+          <div class="modal-body">
+             <h5>Deseja realmente deletar sua conta?</h5>
+          </div>
+          <div class="modal-footer">
+             <button id="confimarDeletar" type="button" class="btn btn-danger">Deletar</button>
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          </div>
+       </div>
+    </div>
+ </div>
+
+ <div style="padding-bottom: 50px">
+    <h1 class="headline2 login-bem-vindo">Meu Perfil</h1>
+ </div>
+
+ <div class="justify-content-center">
+    <form id="form-editar-perfil" method="post">
+
+       <div class="form-row">
+          <div class="form-group col-md-6">
+             <label for="nome">Nome</label>
+             <input id="nome" name="nome" type="text" class="form-control">
+          </div>
+
+          <div class="form-group col-md-6">
+             <label for="email">E-mail</label>
+             <input id="email" name="email" type="email" class="form-control">
+          </div>
+       </div>
+
+       <div id="contrib" class="form-row">
+          <div class="form-group col-md-6">
+             <label for="cidade">Cidade</label>
+             <input id="cidade" name="cidade" type="text" class="form-control">
+          </div>
+
+          <div class="form-group col-md-6">
+             <label for="estado">Estado</label>
+             <input id="estado" name="estado" type="text" class="form-control">
+          </div>
+       </div>
+
+       <div class="form-row">
+          <div class="form-group col-md-6">
+             <label for="login">Usuário</label>
+             <input id="login" name="login" type="text" class="form-control" disabled>
+          </div>
+
+          <div id="adm" class="form-group col-md-6">
+             <label for="contato">Telefone para Contato</label>
+             <input id="contato" name="contato" type="text" class="form-control" minlength="14" maxlength="14">
+          </div>
+       </div>
+
+       <button type="submit" class="btn btn-primary">Salvar Edição</button>
+       <button id="deletar" type="button" class="btn btn-danger">Apagar minha conta</button>
+       
+    </form>
+ </div>

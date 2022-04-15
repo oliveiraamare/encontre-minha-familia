@@ -1,0 +1,48 @@
+<div style="padding-bottom: 50px">
+   <h1 class="headline2 login-bem-vindo">Envie seu Feedback!</h1>
+</div>
+
+<div >
+   <form id="form-feedback" method="post">
+
+      <div class="form-row">
+         <div class="form-group col-md-6" >
+            <label for="experiencia">Como você avalia sua experiência na plataforma?</label>
+            <select id="experiencia" name="experiencia" class="form-control">
+               <option selected></option>
+               <option value="otima">Ótima</option>
+               <option value="boa">Boa</option>
+               <option value="ruim">Ruim</option>
+               <option value="pessima">Péssima</option>
+            </select>
+         </div>
+
+         <div class="form-group col-md-6" >
+            <label for="facilidade">Como você avalia a facilidade de uso da plataforma?</label>
+            <select id="facilidade" name="facilidade" class="form-control">
+               <option selected></option>
+               <option value="otima">Ótima</option>
+               <option value="boa">Boa</option>
+               <option value="ruim">Ruim</option>
+               <option value="pessima">Péssima</option>
+            </select>
+         </div>
+         
+      </div>
+      
+      <div class="form-group" >
+         <label for="importancia">Como você avalia importância do Encontre Minha Família para a sociedade?</label>
+         <textarea id="importancia" name="importancia" type="text" class="form-control"></textarea>
+      </div>
+
+      <div class="form-group">
+         <label for="sugestao">Você tem alguma sugestão de como ou o que podemos melhorar no nosso site?</label>
+         <textarea id="sugestao" name="sugestao" type="text" class="form-control"></textarea>
+      </div>
+
+      <div class="modal-footer">
+         <button type="submit" class="btn btn-primary">Enviar</button>
+         <button id="limpar" type="button" class="btn btn-secondary">Limpar formulário</button>
+      </div>
+   </form>
+</div>
